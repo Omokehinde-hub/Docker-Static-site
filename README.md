@@ -6,9 +6,8 @@ A simple static HTML website containerized with Docker and NGINX.
 ## Running Locally with Docker
 
 1. Build the Docker image:
-
-2.  Run the container:
-3.  3. Visit `http://localhost:8080` in your browser to see your website.
+2.  Run the container exposing the port to 8080:
+3.   Visit `http://localhost:8080` in local browser to see my website.
 
 ## Project Structure
 
