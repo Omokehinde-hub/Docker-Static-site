@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Docker Static Site</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        header {
+            background-color: #4a6fa5;
+            color: white;
+            padding: 20px 0;
+            margin-bottom: 30px;
+        }
+        h1 {
+            font-size: 2.5em;
+        }
+        .content {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            margin-top: 40px;
+            color: #666;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Docker Static Website</h1>
+    </header>
+    
+    <div class="container">
+        <div class="content">
+            <h2>Hello from Docker!</h2>
+            <p>This is a simple static website running in a Docker container.</p>
+            <p>You've successfully containerized an HTML website!</p>
+        </div>
+        
+        <footer>
+            <p>Created with Docker - Running on NGINX</p>
+        </footer>
+    </div>
+</body>
+</html>
